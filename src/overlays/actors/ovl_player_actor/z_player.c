@@ -12360,15 +12360,6 @@ void Player_Draw(Actor* thisx, PlayState* play2) {
         s32 lod = 0;
         s32 pad;
 
-#if ENABLE_LINK_LOD
-        if ((this->csAction != PLAYER_CSACTION_NONE) || (Player_CheckHostileLockOn(this) && 0) ||
-            (this->actor.projectedPos.z < 160.0f)) {
-            lod = 0;
-        } else {
-            lod = 1;
-        }
-#endif
-
         func_80093C80(play);
         Gfx_SetupDL_25Xlu(play->state.gfxCtx);
 

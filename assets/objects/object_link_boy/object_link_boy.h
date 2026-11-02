@@ -89,6 +89,6 @@ extern Gfx gLinkAdultWaistFarDL[78];
 extern Gfx gLinkAdultWaistNearDL[105];
 extern Gfx gLinkAdultRightShoulderNearDL[56];
 
-extern FlexSkeletonHeader gLinkAdultSkel;
-
 #endif
+
+#include "gLinkAdultSkel.h"

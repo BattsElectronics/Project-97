@@ -12,6 +12,8 @@ ifneq ($(call find-command,mips-n64-ld),)
     MIPS_BINUTILS_PREFIX := mips-n64-
 else ifneq ($(call find-command,mips64-ld),)
     MIPS_BINUTILS_PREFIX := mips64-
+else ifneq ($(call find-command,mips64-ultra-elf-ld),)
+    MIPS_BINUTILS_PREFIX := mips64-ultra-elf-
 else ifneq ($(call find-command,mips-linux-gnu-ld),)
     MIPS_BINUTILS_PREFIX := mips-linux-gnu-
 else ifneq ($(call find-command,mips64-linux-gnu-ld),)

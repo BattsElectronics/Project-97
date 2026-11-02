@@ -18,6 +18,7 @@ extracted/
 build/
 expected/
 docs/doxygen/
+assets/scenes/example
 *.z64
 *.n64
 *.v64
@@ -25,7 +26,6 @@ docs/doxygen/
 *.iso
 *.bin
 *.blend1
-*.png~
 *.dol
 *.Identifier
 *.dol

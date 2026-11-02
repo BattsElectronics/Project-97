@@ -40,7 +40,7 @@
 #define MAP_SELECT_ON_FILE_1 false
 
 // Change these if using `BOOT_TO_SCENE`, `BOOT_TO_SCENE_NEW_GAME_ONLY` or `BOOT_TO_DEBUG_OPENING`
-#define BOOT_ENTRANCE ENTR_EXAMPLE_0
+#define BOOT_ENTRANCE ENTR_TRIFORCEROOM_0
 #define BOOT_AGE LINK_AGE_ADULT
 #define BOOT_CUTSCENE 0x0000
 
@@ -68,11 +68,6 @@
  * Enable DMA print at boot
 */
 #define ENABLE_DMA_PRINTF false
-
-/**
- * Include example scene
-*/
-#define INCLUDE_EXAMPLE_SCENE true
 
 /**
  * Enable motion blur debug

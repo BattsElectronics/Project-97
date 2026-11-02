@@ -4077,3 +4077,23 @@ beginseg
     number 3
 endseg
 #endif
+
+beginseg
+    name "triforceroom_scene"
+    compress
+    romalign 0x1000
+    include "$(BUILD_DIR)/assets/scenes/dungeons/triforceroom/triforceroom_scene_main.o"
+    include "$(BUILD_DIR)/assets/scenes/dungeons/triforceroom/triforceroom_scene_col.o"
+    number 2
+endseg
+
+beginseg
+    name "triforceroom_room_0"
+    compress
+    romalign 0x1000
+    include "$(BUILD_DIR)/assets/scenes/dungeons/triforceroom/triforceroom_room_0_main.o"
+    include "$(BUILD_DIR)/assets/scenes/dungeons/triforceroom/triforceroom_room_0_model_info.o"
+    include "$(BUILD_DIR)/assets/scenes/dungeons/triforceroom/triforceroom_room_0_model.o"
+    number 3
+endseg
+

@@ -120,17 +120,8 @@
 /* 0x6A */ DEFINE_SCENE(sutaru_scene, none, SCENE_SUTARU, SDC_DEFAULT, 0, 0)
 /* 0x6B */ DEFINE_SCENE(hairal_niwa2_scene, g_pn_12, SCENE_HAIRAL_NIWA2, SDC_CASTLE_COURTYARD_GUARDS, 0, 0)
 /* 0x6C */ DEFINE_SCENE(sasatest_scene, none, SCENE_SASATEST, SDC_DEFAULT, 0, 0)
-/* 0x6D */ DEFINE_SCENE(testroom_scene, none, SCENE_TESTROOM, SDC_DEFAULT, 0, 0)
+/* 0x6D */ DEFINE_SCENE(testroom_scene, none, SCENE_TESTROOM, , 0, 0)
 #endif
 
-#if CAN_INCLUDE_EXAMPLE_SCENE
-#if ENABLE_ANIMATED_MATERIALS
-/* 0x6C */ DEFINE_SCENE(example_scene, none, SCENE_EXAMPLE, SDC_MAT_ANIM, 0, 0)
-#else
-/* 0x6C */ DEFINE_SCENE(example_scene, none, SCENE_EXAMPLE, SDC_HAUNTED_WASTELAND, 0, 0)
-#endif
-#endif
-
-#if TESTSUITE_MODE
-#include "testsuite/scene_table.h"
-#endif
+// Added scenes
+/* 0x6E */ DEFINE_SCENE(triforceroom_scene, none, SCENE_TRIFORCEROOM, SDC_DEFAULT, 0, 0)

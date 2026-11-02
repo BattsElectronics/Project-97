@@ -52,9 +52,6 @@
 #include "debug.h"
 #include "animated_materials.h"
 
-#if CAN_INCLUDE_EXAMPLE_SCENE
-#include "assets/scenes/example/example_scene.h"
-#endif
 
 #pragma increment_block_number "gc-eu:224 gc-eu-mq:224 gc-jp:224 gc-jp-ce:224 gc-jp-mq:224 gc-us:224 gc-us-mq:224" \
                                "ique-cn:224 ntsc-1.0:240 ntsc-1.1:240 ntsc-1.2:240 pal-1.0:240 pal-1.1:240"
@@ -1223,14 +1220,6 @@ skip:
         }
     }
 
-#if CAN_INCLUDE_EXAMPLE_SCENE
-    if (this->sceneId == SCENE_EXAMPLE) {
-        if (CHECK_BTN_ALL(this->state.input[0].cur.button, BTN_Z | BTN_R) &&
-            CHECK_BTN_ALL(this->state.input[0].press.button, BTN_A) && !Play_InCsMode(this)) {
-            Cutscene_SetScript(this, gExampleCS);
-            gSaveContext.cutsceneTrigger = 1;
-        }
-
 #if ENABLE_CUTSCENE_IMPROVEMENTS
         if (!Play_InCsMode(this)) {
             // get the additional cutscene id and use it if the value is not -1
@@ -1248,8 +1237,7 @@ skip:
         }
 #endif
     }
-#endif
-}
+
 
 void Play_DrawOverlayElements(PlayState* this) {
 #if PLATFORM_N64
