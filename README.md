@@ -9,6 +9,9 @@ This project, based on the [Zelda: Ocarina of Time decompilation project](https:
 
 It builds the following versions:
 
+NOTE I DONT ACTUALLY KNOW IF IT WORKS ON ANYTHING THAT ISNT gc-eu-mq-dbg
+
+
 | Name         | Build timestamp   | Description                               | MD5 hash of input ROM(s) |
 |--------------|-------------------|-------------------------------------------|--------------------------|
 | ntsc-1.0     | 98-10-21 04:56:31 | NTSC 1.0 (Japan/US)                       | `9f04c8e68534b870f707c247fa4b50fc`<br>`5bd1fe107bf8106b2ab6650abecd54d6` |
