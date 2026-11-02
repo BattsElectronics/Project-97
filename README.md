@@ -1,4 +1,4 @@
-# Hacker Zelda: Ocarina of Time (HackerOoT)
+# Project '97
 
 [![Contributors][contributors-badge]][contributors]
 
