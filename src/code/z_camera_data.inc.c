@@ -253,7 +253,7 @@ CameraModeValue sSetNormal0ModeTalkData[] = {
 
 CameraModeValue sSetNormal0ModeZTargetUnfriendlyData[] = {
     CAM_FUNCDATA_BATT1(-20, 180, 10, 80, 0, 10, 25, 50, 80,
-                       CAM_INTERFACE_FIELD(CAM_LETTERBOX_MEDIUM, CAM_HUD_VISIBILITY_ALL, BATTLE1_FLAG_1), -40, 25),
+                       CAM_INTERFACE_FIELD(CAM_LETTERBOX_NONE, CAM_HUD_VISIBILITY_ALL, BATTLE1_FLAG_1), -40, 25),
 };
 
 CameraModeValue sSetNormal0ModeWallClimbData[] = {

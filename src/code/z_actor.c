@@ -299,7 +299,7 @@ static AttentionColor sAttentionColors[ACTORCAT_MAX + 1] = {
     { { 255, 255, 255, 255 }, { 0, 0, 255, 0 } },     // ACTORCAT_PLAYER
     { { 0, 255, 0, 255 }, { 0, 255, 0, 0 } },         // ACTORCAT_EXPLOSIVE
     { { 150, 150, 255, 255 }, { 150, 150, 255, 0 } }, // ACTORCAT_NPC
-    { { 255, 255, 0, 255 }, { 200, 155, 0, 0 } },     // ACTORCAT_ENEMY
+    { { 255, 255, 0, 255 }, { 255, 0, 0, 0 } },       // ACTORCAT_ENEMY
     { { 0, 255, 0, 255 }, { 0, 255, 0, 0 } },         // ACTORCAT_PROP
     { { 0, 255, 0, 255 }, { 0, 255, 0, 0 } },         // ACTORCAT_ITEMACTION
     { { 0, 255, 0, 255 }, { 0, 255, 0, 0 } },         // ACTORCAT_MISC
@@ -369,7 +369,7 @@ void Attention_Init(Attention* attention, Actor* actor, PlayState* play) {
     attention->curReticle = 0;
 
     Attention_SetNaviState(attention, actor, actor->category, play);
-    Attention_InitReticle(attention, actor->category, play);
+    //Attention_InitReticle(attention, actor->category, play);
 }
 
 void Attention_Draw(Attention* attention, PlayState* play) {
@@ -595,7 +595,7 @@ void Attention_Update(Attention* attention, Player* player, Actor* playerFocusAc
             s32 lockOnSfxId;
 
             // Set up a new reticle
-            Attention_InitReticle(attention, playerFocusActor->category, play);
+            //Attention_InitReticle(attention, playerFocusActor->category, play);
             attention->reticleActor = playerFocusActor;
 
             if (playerFocusActor->id == ACTOR_EN_BOOM) {
