@@ -1,5 +1,5 @@
 # Project '97
-
+credit for the sw97 project for allowing use of their assets
 [![Contributors][contributors-badge]][contributors]
 
 [contributors]: https://github.com/HackerN64/HackerOoT/graphs/contributors
