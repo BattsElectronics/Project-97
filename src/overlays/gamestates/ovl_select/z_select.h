@@ -78,6 +78,7 @@ static MapSelectEntry sScenes[] = {
     { "Example", MapSelect_LoadGame, ENTR_EXAMPLE_0 },
 #endif
     { "Hyrule Field", MapSelect_LoadGame, ENTR_HYRULE_FIELD_0 },
+    { "Hyrule Field (A+C)", MapSelect_LoadGame, ENTR_HYRULEFIELDAC_0 },
     { "Kakariko Village", MapSelect_LoadGame, ENTR_KAKARIKO_VILLAGE_0 },
     { "Graveyard", MapSelect_LoadGame, ENTR_GRAVEYARD_0 },
     { "Zora's River", MapSelect_LoadGame, ENTR_ZORAS_RIVER_0 },

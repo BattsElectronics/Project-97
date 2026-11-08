@@ -1,0 +1,14 @@
+#ifndef GLINKADULTRIGHTHANDCLOSEDNEARDL_H
+#define GLINKADULTRIGHTHANDCLOSEDNEARDL_H
+
+#include "ultra64.h"
+#include "object_link_boy.h"
+
+extern u64 gLinkAdultRightHandClosedNearDL_gHumanFingersTex_rgba16_rgba16[];
+extern Vtx gLinkAdultRightHandClosedNearDL_gLinkAdultRightHandClosedNearDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gLinkAdultRightHandClosedNearDL_gLinkAdultRightHandClosedNearDL_mesh_layer_Opaque_vtx_0[124];
+extern Gfx gLinkAdultRightHandClosedNearDL_gLinkAdultRightHandClosedNearDL_mesh_layer_Opaque_tri_0[];
+extern Gfx mat_gLinkAdultRightHandClosedNearDL_f3dlite_material_092_layerOpaque[];
+extern Gfx gLinkAdultRightHandClosedNearDL[];
+
+#endif

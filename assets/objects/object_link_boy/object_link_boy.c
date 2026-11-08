@@ -680,14 +680,6 @@ Vtx gLinkAdultRightHandHoldingMirrorShieldFarVtx2[] = {
 #include "assets/objects/object_link_boy/gLinkAdultRightHandHoldingMirrorShieldFarVtx2.inc.c"
 };
 
-Gfx gLinkAdultHylianShieldSwordAndSheathNearDL[127] = {
-#include "assets/objects/object_link_boy/gLinkAdultHylianShieldSwordAndSheathNearDL.inc.c"
-};
-
-Gfx gLinkAdultHylianShieldAndSheathNearDL[105] = {
-#include "assets/objects/object_link_boy/gLinkAdultHylianShieldAndSheathNearDL.inc.c"
-};
-
 Gfx gLinkAdultMirrorShieldSwordAndSheathNearDL[159] = {
 #include "assets/objects/object_link_boy/gLinkAdultMirrorShieldSwordAndSheathNearDL.inc.c"
 };
@@ -696,36 +688,8 @@ Gfx gLinkAdultMirrorShieldAndSheathNearDL[127] = {
 #include "assets/objects/object_link_boy/gLinkAdultMirrorShieldAndSheathNearDL.inc.c"
 };
 
-Gfx gLinkAdultLeftHandNearDL[72] = {
-#include "assets/objects/object_link_boy/gLinkAdultLeftHandNearDL.inc.c"
-};
-
-Gfx gLinkAdultLeftHandClosedNearDL[82] = {
-#include "assets/objects/object_link_boy/gLinkAdultLeftHandClosedNearDL.inc.c"
-};
-
-Gfx gLinkAdultLeftHandHoldingMasterSwordNearDL[164] = {
-#include "assets/objects/object_link_boy/gLinkAdultLeftHandHoldingMasterSwordNearDL.inc.c"
-};
-
-Gfx gLinkAdultRightHandNearDL[73] = {
-#include "assets/objects/object_link_boy/gLinkAdultRightHandNearDL.inc.c"
-};
-
-Gfx gLinkAdultRightHandClosedNearDL[82] = {
-#include "assets/objects/object_link_boy/gLinkAdultRightHandClosedNearDL.inc.c"
-};
-
-Gfx gLinkAdultRightHandHoldingHylianShieldNearDL[135] = {
-#include "assets/objects/object_link_boy/gLinkAdultRightHandHoldingHylianShieldNearDL.inc.c"
-};
-
 Gfx gLinkAdultRightHandHoldingBowNearDL[119] = {
 #include "assets/objects/object_link_boy/gLinkAdultRightHandHoldingBowNearDL.inc.c"
-};
-
-Gfx gLinkAdultMasterSwordAndSheathNearDL[80] = {
-#include "assets/objects/object_link_boy/gLinkAdultMasterSwordAndSheathNearDL.inc.c"
 };
 
 Gfx gLinkAdultLeftHandHoldingHammerNearDL[157] = {
@@ -1271,3 +1235,21 @@ Gfx gLinkAdultLeftArmNearDL[79] = {
 
 
 #include "gLinkAdultSkel.c"
+
+#include "gLinkAdultHylianShieldAndSheathNearDL.c"
+
+#include "gLinkAdultHylianShieldSwordAndSheathNearDL.c"
+
+#include "gLinkAdultMasterSwordAndSheathNearDL.c"
+
+#include "gLinkAdultLeftHandClosedNearDL.c"
+
+#include "gLinkAdultLeftHandHoldingMasterSwordNearDL.c"
+
+#include "gLinkAdultLeftHandNearDL.c"
+
+#include "gLinkAdultRightHandClosedNearDL.c"
+
+#include "gLinkAdultRightHandHoldingHylianShieldNearDL.c"
+
+#include "gLinkAdultRightHandNearDL.c"

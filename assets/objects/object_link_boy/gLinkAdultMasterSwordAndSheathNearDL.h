@@ -1,0 +1,17 @@
+#ifndef GLINKADULTMASTERSWORDANDSHEATHNEARDL_H
+#define GLINKADULTMASTERSWORDANDSHEATHNEARDL_H
+
+#include "ultra64.h"
+#include "object_link_boy.h"
+
+extern u64 gLinkAdultMasterSwordAndSheathNearDL_linkboot_rgba16[];
+extern Vtx gLinkAdultMasterSwordAndSheathNearDL_gLinkAdultMasterSwordAndSheathNearDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gLinkAdultMasterSwordAndSheathNearDL_gLinkAdultMasterSwordAndSheathNearDL_mesh_layer_Opaque_vtx_0[42];
+extern Gfx gLinkAdultMasterSwordAndSheathNearDL_gLinkAdultMasterSwordAndSheathNearDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gLinkAdultMasterSwordAndSheathNearDL_gLinkAdultMasterSwordAndSheathNearDL_mesh_layer_Opaque_vtx_1[38];
+extern Gfx gLinkAdultMasterSwordAndSheathNearDL_gLinkAdultMasterSwordAndSheathNearDL_mesh_layer_Opaque_tri_1[];
+extern Gfx mat_gLinkAdultMasterSwordAndSheathNearDL_f3dlite_material_052_layerOpaque[];
+extern Gfx mat_gLinkAdultMasterSwordAndSheathNearDL_f3dlite_material_001_layerOpaque[];
+extern Gfx gLinkAdultMasterSwordAndSheathNearDL[];
+
+#endif

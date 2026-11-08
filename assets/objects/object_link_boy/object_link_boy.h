@@ -23,18 +23,9 @@ extern u64 gLinkAdultMouthHalfTex[TEX_LEN(u64, LINK_ADULT_MOUTH_TEX_WIDTH, LINK_
 extern u64 gLinkAdultMouthOpenTex[TEX_LEN(u64, LINK_ADULT_MOUTH_TEX_WIDTH, LINK_ADULT_MOUTH_TEX_HEIGHT, 8)];
 extern u64 gLinkAdultMouthSmileTex[TEX_LEN(u64, LINK_ADULT_MOUTH_TEX_WIDTH, LINK_ADULT_MOUTH_TEX_HEIGHT, 8)];
 
-extern Gfx gLinkAdultHylianShieldSwordAndSheathNearDL[127];
-extern Gfx gLinkAdultHylianShieldAndSheathNearDL[105];
 extern Gfx gLinkAdultMirrorShieldSwordAndSheathNearDL[159];
 extern Gfx gLinkAdultMirrorShieldAndSheathNearDL[127];
-extern Gfx gLinkAdultLeftHandNearDL[72];
-extern Gfx gLinkAdultLeftHandClosedNearDL[82];
-extern Gfx gLinkAdultLeftHandHoldingMasterSwordNearDL[164];
-extern Gfx gLinkAdultRightHandNearDL[73];
-extern Gfx gLinkAdultRightHandClosedNearDL[82];
-extern Gfx gLinkAdultRightHandHoldingHylianShieldNearDL[135];
 extern Gfx gLinkAdultRightHandHoldingBowNearDL[119];
-extern Gfx gLinkAdultMasterSwordAndSheathNearDL[80];
 extern Gfx gLinkAdultLeftHandHoldingHammerNearDL[157];
 extern Gfx gLinkAdultLeftHandHoldingBgsNearDL[145];
 extern Gfx gLinkAdultHandHoldingBrokenGiantsKnifeDL[142];
@@ -92,3 +83,21 @@ extern Gfx gLinkAdultRightShoulderNearDL[56];
 #endif
 
 #include "gLinkAdultSkel.h"
+
+#include "gLinkAdultHylianShieldAndSheathNearDL.h"
+
+#include "gLinkAdultHylianShieldSwordAndSheathNearDL.h"
+
+#include "gLinkAdultMasterSwordAndSheathNearDL.h"
+
+#include "gLinkAdultLeftHandClosedNearDL.h"
+
+#include "gLinkAdultLeftHandHoldingMasterSwordNearDL.h"
+
+#include "gLinkAdultLeftHandNearDL.h"
+
+#include "gLinkAdultRightHandClosedNearDL.h"
+
+#include "gLinkAdultRightHandHoldingHylianShieldNearDL.h"
+
+#include "gLinkAdultRightHandNearDL.h"

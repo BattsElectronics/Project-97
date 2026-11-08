@@ -125,3 +125,4 @@
 
 // Added scenes
 /* 0x6E */ DEFINE_SCENE(triforceroom_scene, none, SCENE_TRIFORCEROOM, SDC_DEFAULT, 0, 0)
+/* 0x6F */ DEFINE_SCENE(hyrulefieldac_scene, none, SCENE_HYRULEFIELDAC, SDC_DEFAULT, 0, 0)
