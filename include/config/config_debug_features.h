@@ -62,7 +62,7 @@
 
 /**** [TEST SCENES] ****/
 // ``CAN_INCLUDE_TEST_SCENES``
-#define INCLUDE_TEST_SCENES false
+#define INCLUDE_TEST_SCENES true
 
 // -------------------------------------------
 
