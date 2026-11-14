@@ -7920,9 +7920,9 @@ s32 func_8083FC68(Player* this, f32 arg1, s16 arg2) {
 
     temp = fabsf(sp1C) / 32768.0f;
 
-    if (arg1 > (((temp * temp) * 50.0f) + 6.0f)) {
+    if (arg1 > (((temp * temp) * 50.0f) + 4.0f)) {
         return 1;
-    } else if (arg1 > (((1.0f - temp) * 10.0f) + 6.8f)) {
+    } else if (arg1 > (((1.0f - temp) * 10.0f) + 4.0f)) {
         return -1;
     }
 
